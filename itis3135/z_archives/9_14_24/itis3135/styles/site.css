@@ -1,0 +1,42 @@
+body {
+    background-color: aqua;
+    color: brown;
+    font-family: Tahoma;
+    margin: 0;
+    padding: 0;
+  }
+
+  header,
+  main,
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+  }
+
+  footer nav {
+    margin: 10px 0;
+  }
+
+  footer nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+
+  footer nav a:hover {
+    text-decoration: underline;
+  }
+
+  /* Flexbox layout for footer navigation */
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer nav {
+    display: inline-block;
+    margin: 0;
+  }
