@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Rishabh Ravi's Tables</title>
+    <link rel="stylesheet" href="styles/default.css" >
+    <script
+      src="https://lint.page/kit/4d0fe3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <div data-include="components/header.html"></div>
+    </header>
+
+    <main>
+      <h2>My Tabular Data</h2>
+      <ol>
+        <li>Rishabh Ravi - rravi@gmail.com - 10</li>
+        <li>Matt Sloan - msloan@yahoo.com - 5</li>
+        <li>Mytien Hoang - mhoang@outlook.com - 15</li>
+        <li>TJ Gaither - tgaither@yahoo.com - 8</li>
+        <li>Josh Needles - joshneedles@company.com - 12</li>
+        <li>Drew Jasper - djasper@gmail.com - 6</li>
+        <li>Mackay Burke - mburke@gmail.com - 9</li>
+      </ol>
+
+      <h3>Employee Data in Simple Table</h3>
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Years of Service</th>
+        </tr>
+        <tr>
+          <td>Rishabh Ravi</td>
+          <td>rravi@gmail.com</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>Matt Sloan</td>
+          <td>msloan@yahoo.com</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>Mytien Hoang</td>
+          <td>mhoang@outlook.com</td>
+          <td>15</td>
+        </tr>
+        <tr>
+          <td>TJ Gaither</td>
+          <td>tgaither@yahoo.com</td>
+          <td>8</td>
+        </tr>
+        <tr>
+          <td>Josh Needles</td>
+          <td>joshneedles@company.com</td>
+          <td>12</td>
+        </tr>
+        <tr>
+          <td>Drew Jasper</td>
+          <td>djasper@gmail.com</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>Mackay Burke</td>
+          <td>mburke@gmail.com</td>
+          <td>9</td>
+        </tr>
+      </table>
+
+      <!-- Complex Table -->
+      <h3>Employee Data in Complex Table</h3>
+      <figure>
+        <table>
+          <tr>
+            <th>Category</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Years of Service</th>
+            <th>Monthly Salary ($)</th>
+          </tr>
+          <tr>
+            <td rowspan="2">Management</td>
+            <td>Rishabh Ravi</td>
+          <td>rravi@gmail.com</td>
+          <td>10</td>
+            <td>$8,000</td>
+          </tr>
+          <tr>
+            <td>Matt Sloan</td>
+          <td>msloan@yahoo.com</td>
+          <td>5</td>
+            <td>$6,000</td>
+          </tr>
+          <tr>
+            <td rowspan="3">Development</td>
+            <td>Mytien Hoang</td>
+          <td>mhoang@outlook.com</td>
+          <td>15</td>
+            <td>$7,000</td>
+          </tr>
+          <tr>
+            <td>TJ Gaither</td>
+          <td>tgaither@yahoo.com</td>
+          <td>8</td>
+            <td>$5,500</td>
+          </tr>
+          <tr>
+            <td>Josh Needles</td>
+          <td>joshneedles@company.com</td>
+          <td>12</td>
+            <td>$7,300</td>
+          </tr>
+          <tr>
+            <td rowspan="2">Support</td>
+            <td>Drew Jasper</td>
+          <td>djasper@gmail.com</td>
+          <td>6</td>
+            <td>$4,800</td>
+          </tr>
+          <tr>
+            <td>Mackay Burke</td>
+          <td>mburke@gmail.com</td>
+          <td>9</td>
+            <td>$5,100</td>
+          </tr>
+          <!-- Total Row -->
+          <tr>
+            <th colspan="3">Total Years of Service</th>
+            <td>65</td>
+            <td>$43,700</td>
+          </tr>
+        </table>
+        <figcaption>Employee Information and Categories</figcaption>
+      </figure>
+    </main>
+
+    <footer>
+      <div data-include="components/footer.html"></div>
+    </footer>
+    <script src="scripts/HTMLinclude.min.js"></script>
+  </body>
+</html>
