@@ -246,3 +246,8 @@ select:focus {
   outline: none;
   box-shadow: 0 0 5px rgba(128, 203, 196, 0.5);
 }
+.secondary-nav {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: gray;
+}

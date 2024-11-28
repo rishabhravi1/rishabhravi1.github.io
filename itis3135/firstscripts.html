@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Scripts - Reasonable Raccoon Designs</title>
+    <link rel="stylesheet" href="styles/default.css">
+    <script src="scripts/defaultscripts.js" defer></script>
+    <script
+      src="https://lint.page/kit/4d0fe3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <div data-include="components/header.html"></div>
+    </header>
+
+    <main>
+      <h2>First Scripts Page</h2>
+      <h3 id="currentDateTime"></h3>
+
+      <section>
+        <h3>Reasonable Raccoon Interaction</h3>
+        <form id="userForm">
+          <label for="userName">Enter your name:</label>
+          <input type="text" id="userName" required><br><br>
+
+          <label for="userMood">How are you feeling?:</label>
+          <input type="text" id="userMood" required><br><br>
+
+          <label for="favoriteNumber">Enter your favorite number (0-10):</label>
+          <input type="number" id="favoriteNumber" min="0" max="10" step="any"><br><br>
+
+          <button type="button" onclick="processUserInput()">Submit</button>
+        </form>
+        <p id="greetingMessage"></p>
+      </section>
+
+      <section>
+        <h3>Reasonable Raccoon Features</h3>
+        <button onclick="randomRaccoonFact()">Show Raccoon Fact</button>
+        <button onclick="calculateTrashWeight()">Calculate Trash Weight</button>
+        <button onclick="generateFriendlyInsult()">Generate Friendly Insult</button>
+        <button onclick="raccoonChatter()">Hear Raccoon Chatter</button>
+        <button onclick="raccoonLifeAdvice()">Get Raccoon Advice</button>
+        <p id="raccoonOutput"></p>
+      </section>
+    </main>
+
+    <footer>
+      <div data-include="components/footer.html"></div>
+    </footer>
+    <script src="scripts/HTMLinclude.min.js"></script>
+  </body>
+</html>
