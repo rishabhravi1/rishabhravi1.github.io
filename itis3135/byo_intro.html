@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rishabh Ravi's BYO Intro</title>
+  <link rel="stylesheet" href="styles/default.css">
+  <script src="scripts/survey.js" defer></script>
+</head>
+<body>
+  <header>
+    <div data-include="components/header.html"></div>
+  </header>
+
+  <main>
+    <h2>BYO Intro</h2>
+    <h3>Time to BYO Intro page, please fill out the form below so we can create your own page.</h3>
+    
+    <form id="byo-intro-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" value="Rishabh Ravi" required><br><br>
+
+      <label for="mascot">Mascot:</label>
+      <input type="text" id="mascot" name="mascot" value="Reasonable Raccoon" required><br><br>
+
+      <label for="image">Image:</label>
+      <input type="file" id="image" name="image" accept=".png, .jpg, .jpeg" required><br><br>
+
+      <label for="image-caption">Image Caption:</label>
+      <input type="text" id="image-caption" name="image-caption" required><br><br>
+
+      <label for="personal-background">Personal Background:</label>
+      <input type="text" id="personal-background" name="personal-background" value="I grew up here in Charlotte and decided to come to UNCC because it was close to home. I love all forms of motorsports. When I graduate, I hope to be working in the motorsports industry as a data analyst.
+      " required><br><br>
+
+      <label for="professional-background">Professional Background:</label>
+      <input type="text" id="professional-background" name="professional-background" value="Over the past year, I have worked at 23XI Racing as a data analytics intern. I’ve had the opportunity to work on projects ranging from full-stack development to trackside IT support." required><br><br>
+
+      <label for="academic-background">Academic Background:</label>
+      <input type="text" id="academic-background" name="academic-background" value="I’m a senior Data Science major minoring in Software Engineering and Statistics." required><br><br>
+
+      <label for="web-dev-background">Background in Web Development:</label>
+      <input type="text" id="web-dev-background" name="web-dev-background" value="I have experience in full-stack development due to my internship, but I primarily work on the back-end side of our tools." required><br><br>
+
+      <label for="primary-platform">Primary Computer Platform:</label>
+      <input type="text" id="primary-platform" name="primary-platform" value="Windows and some Linux." required><br><br>
+
+      <label for="courses">Courses Currently Taking:</label>
+      <div id="courses-container">
+        <button type="button" id="add-course">Add Course</button>
+      </div><br><br>
+
+      <label for="funny-thing">Funny Thing:</label>
+      <input type="text" id="funny-thing" name="funny-thing"><br><br>
+
+      <label for="anything-else">Anything Else:</label>
+      <input type="text" id="anything-else" name="anything-else"><br><br>
+
+      <label>
+        <input type="checkbox" id="agree" name="agree" required>
+        I understand that what is on this page is not password protected and I will not put anything here that I don’t want publicly available.
+      </label><br><br>
+
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+    </form>
+  </main>
+
+  <footer>
+    <div data-include="components/footer.html"></div>
+  </footer>
+  <script src="scripts/HTMLinclude.min.js"></script>
+</body>
+</html>
