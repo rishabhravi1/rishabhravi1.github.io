@@ -1,6 +1,5 @@
 main {
   max-width: 1200px;
-  width: 90%;
   margin: 0 auto;
   padding: 50px;
   background-color: #fff;
@@ -27,11 +26,11 @@ header {
   font-size: 2rem;
 }
 
-h1 {
+/* h1 {
   font-size: 2.5rem;
   margin: 0;
   font-family: "Roboto", sans-serif;
-}
+} */
 
 main {
   background-color: #fff;
@@ -42,13 +41,13 @@ main {
   border-radius: 10px;
 }
 
-h2 {
+/* h2 {
   color: #000000;
   font-size: 1.75rem;
   margin-bottom: 20px;
   text-align: center;
   font-family: "Roboto", sans-serif;
-}
+} */
 
 p {
   font-size: 1.2rem;
@@ -149,7 +148,7 @@ tr:nth-child(odd) {
 @media screen and (max-width: 600px) {
   main {
     width: 95%;
-    padding: 20px;
+    box-sizing: border-box;
   }
   h1 {
     font-size: 1.8rem;
@@ -173,7 +172,7 @@ tr:nth-child(odd) {
   main {
     width: 90%;
     max-width: 900px;
-    padding: 40px;
+    box-sizing: border-box;
   }
   h1 {
     font-size: 2rem;
@@ -189,7 +188,7 @@ tr:nth-child(odd) {
 @media screen and (min-width: 981px) {
   main {
     max-width: 1200px;
-    padding: 50px;
+    box-sizing: border-box;
   }
   h1 {
     font-size: 2.5rem;
@@ -215,10 +214,6 @@ button[type="reset"] {
   transition: background-color 0.3s ease;
 }
 
-button[type="submit"]:hover,
-button[type="reset"]:hover {
-  background-color: #555555;
-}
 
 input[type="text"],
 input[type="tel"],
