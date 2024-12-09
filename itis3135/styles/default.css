@@ -250,3 +250,7 @@ figcaption {
   font-size: 0.9em;
   color: #666;
 }
+
+.wireframe {
+  border: 1px 
+  solid rgba(0, 0, 0, 0.1);}
