@@ -6,19 +6,20 @@ document.addEventListener("DOMContentLoaded", () => {
   // Handle adding courses dynamically
   addCourseButton.addEventListener("click", () => {
     const courseInput = document.createElement("input");
+    const deleteButton = document.createElement("button");
+    const courseDiv = document.createElement("div");
+
     courseInput.type = "text";
     courseInput.name = "courses";
     courseInput.placeholder = "Enter a course";
     courseInput.required = true;
 
-    const deleteButton = document.createElement("button");
     deleteButton.type = "button";
     deleteButton.textContent = "Delete";
     deleteButton.addEventListener("click", () => {
       coursesContainer.removeChild(courseDiv);
     });
 
-    const courseDiv = document.createElement("div");
     courseDiv.appendChild(courseInput);
     courseDiv.appendChild(deleteButton);
 
