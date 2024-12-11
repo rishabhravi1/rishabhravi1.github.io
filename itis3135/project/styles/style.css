@@ -179,3 +179,7 @@ background-color: #000;
 color: #fff;
 border-radius: 4px; /* Rounded corners */
 }
+
+#dots-container {
+    text-align:center;
+}

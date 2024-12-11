@@ -1,0 +1,21 @@
+{
+    "title": "Rishabh Ravi's Site",
+    "subtitle": "Reasonable Racoon ITIS 3135",
+    "quote": "\"Empowering Solutions for Everyday Life\"",
+    "mainNav": [
+        { "name": "Home", "url": "../index.html" },
+        { "name": "ITIS3135 Home Page", "url": "index.html" },
+        { "name": "Introduction", "url": "introduction.html" },
+        { "name": "Contract", "url": "contract.html" },
+        { "name": "About", "url": "about.html" },
+        { "name": "Tables", "url": "tables.html" },
+        { "name": "Forms", "url": "forms.html" },
+        { "name": "CRAPPY", "url": "STUFF/fUnNy F!LE.HTM" },
+        { "name": "CRAP Eval", "url": "crap_eval.html" },
+        { "name": "First Scripts", "url": "firstscripts.html" },
+        { "name": "BYO Intro", "url": "byo_intro.html" },
+        { "name": "Drawing", "url": "drawing.html" },
+        { "name": "Project Overview", "url": "project_overview.html" },
+        { "name": "Project Site", "url": "project\\index.html" }
+    ]
+}

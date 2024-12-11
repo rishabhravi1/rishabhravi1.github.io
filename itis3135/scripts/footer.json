@@ -1,0 +1,26 @@
+{
+    "contactLinks": [
+        { "name": "ITIS 3135 Course Site", "url": "https://webpages.charlotte.edu/rravi3/index.html" },
+        { "name": "GitHub Repo", "url": "https://github.com/rishabhravi1/rishabhravi1.github.io" },
+        { "name": "GitHub Site", "url": "https://rishabhravi1.github.io/" },
+        { "name": "LinkedIn", "url": "https://www.linkedin.com/in/rishabh-ravi/" },
+        { "name": "FreeCodeCamp", "url": "https://www.freecodecamp.org/rravi3" },
+        { "name": "Codecademy", "url": "https://www.codecademy.com/profiles/rravi3" }
+    ],
+    "designer": "Rishabh Ravi",
+    "certifications": {
+        "js": "https://www.freecodecamp.org/certification/rravi3/javascript-algorithms-and-data-structures-v8",
+        "responsive": "https://www.freecodecamp.org/certification/rravi3/responsive-web-design"
+    },
+    "copyright": {
+        "name": "Reasonable Raccoon Designs",
+        "year": "2024",
+        "url": "reasonableracoondesigns.co/index.html"
+    },
+    "validation": {
+        "html": "https://validator.w3.org/check?uri=referer",
+        "htmlImg": "https://upload.wikimedia.org/wikipedia/commons/b/bb/W3C_HTML5_certified.png",
+        "css": "https://jigsaw.w3.org/css-validator/check/referer",
+        "cssImg": "https://jigsaw.w3.org/css-validator/images/vcss"
+    }
+}
