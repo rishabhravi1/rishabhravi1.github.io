@@ -1,4 +1,3 @@
-/* --- contact.html (Contact Us Page) --- */
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,15 +8,8 @@
 </head>
 <body>
   <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="case-studies.html">Case Studies</a></li>
-        <li><a href="contact.html" class="active">Contact Us</a></li>
-      </ul>
-    </nav>
+    <div data-include="components/header.html"></div>
+
   </header>
   <main>
     <section class="hero">
@@ -41,13 +33,8 @@
     </section>
   </main>
   <footer>
-    <div class="footer-socials">
-      <a href="#"><i class="icon">X</i></a>
-      <a href="#"><i class="icon">YouTube</i></a>
-      <a href="#"><i class="icon">Instagram</i></a>
-      <a href="#"><i class="icon">LinkedIn</i></a>
-    </div>
-    <p>&copy; 2024 Technogenz Solutions</p>
+    <div data-include="components/footer.html"></div>
   </footer>
+  <script src="scripts/HTMLinclude.min.js"></script>
 </body>
 </html>
